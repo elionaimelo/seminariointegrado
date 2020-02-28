@@ -1,0 +1,424 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+nav.topo {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.16);
+    height: 80px;
+    background: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #161615;
+}
+
+.bg {
+    background: url(../imagens/imagem_hot_seminario_icde.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65vh;
+}
+
+.height-65 {
+    height: 65vh;
+}
+
+.localizacao {
+    width: 100%;
+    height: 420px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16);
+}
+
+.endereco {
+    background: white;
+    padding: 20px 30px 10px 20px;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
+
+.point {
+    color: #00477D;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#organizacao .row {
+    margin-bottom: 50px;
+}
+
+.sobre {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.enfeite1 {
+    margin: 140px 0;
+}
+
+.rodape {
+    background: #0A1525;
+    min-height: 200px;
+    padding: 60px 0;
+    margin-top: 76px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #161615;
+}
+
+.rodape h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.enfeite3 {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.palestrantes {
+    position: relative;
+    min-height: 200px;
+    overflow: hidden;
+    padding-bottom: 60px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+}
+
+.palestrantes .container-img{
+    width: 195px;
+    height: 170px;
+    overflow: hidden;
+    margin: 0 auto 10px auto;
+}
+
+.palestrantes .nome {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #111E72;
+    margin-bottom: 40px;
+}
+
+.palestrantes .container-img p:last-child {
+    color: #707070;
+}
+
+.enfeites {
+    position: relative;
+    margin-top: 100px;
+}
+
+.enfeite2 {
+    position: absolute;
+    right: 30px;
+    margin-top: 10px;
+}
+
+.botao-inscreva {
+    padding: 25px 70px;
+    /* margin-top: 100px; */
+    background: #111E72;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    /* margin-bottom: 100px; */
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.bandeiras {
+    margin: 90px auto 130px auto;
+}
+
+.btn-success {
+    background-color: #03487D;
+    border-color: #03487D;
+    border-radius: 5px;
+}
+
+.logos-parceiras {
+    margin: 80px;
+}
+
+.parceiros1 {
+    margin: 60px auto 30px auto;
+}
+
+.parceiros2 {
+    margin: 30px auto;
+}
+
+.rodape img {
+    margin: 20px;
+}
+
+.navbar-collapse {
+    background: white;
+    padding: 20px;
+    z-index: 10;
+}
+
+.idioma .nav-link {
+    padding: 0;
+}
+
+.idioma .nav-item:first-child {
+    border-right: 2px solid #161615;
+}
+
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+
+.form-inscricao {
+    background: #F2F3F8;
+    border-radius: 30px;
+    padding: 40px 60px;
+}
+
+.bt-enviar {
+    background-color: #00487D;
+    padding: 10px 45px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.titulo-evento {
+    font-size: 2.2rem !important;
+    color: white !important;
+    line-height: 43px;
+}
+
+.list-organizacao li {
+    margin-bottom: 10px;
+}
+
+#tabs {
+    margin-bottom: 80px;
+}
+
+.box{
+    margin:0 10%;
+    /* height: 930px;
+    overflow: hidden; */
+    padding: 10px 0 40px 60px
+}
+
+.box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transition: all 0.5s linear;
+    top:0
+}
+
+.box ul:last-of-type{top:80px}
+
+.box ul:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border:1px dashed #fff;
+    position: absolute;
+    top:0;
+    left:30px
+}
+
+.box ul li{
+    margin: 20px 60px 60px;
+    position: relative;
+    padding: 10px 20px;
+    background:rgba(255, 255, 255, 0.3);
+    color:#fff;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 90%
+}
+
+
+.box ul li > span{
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border:1px solid #fff;
+    position: absolute;
+    top:0;
+    left:-30px
+}
+
+.box ul li > span:before,.box ul li > span:after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #fff;
+    position: absolute;
+    left: -5.5px;
+}
+
+#nav-home .box ul li > span:before, #nav-home .box ul li > span:after{
+    background: #111d72;
+}
+
+#nav-profile .box ul li > span:before, #nav-profile .box ul li > span:after{
+    background: #c50031;
+}
+
+#nav-contact .box ul li > span:before, #nav-contact .box ul li > span:after{
+    background: #0f97a9;
+}
+
+
+.box ul li > span:before{top:-10px}
+.box ul li > span:after{top:95%}
+
+.box .title{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px
+}
+
+.box .info:first-letter{text-transform: capitalize;line-height: 1.7}
+
+.box .name{
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: right;
+    margin-right: 20px
+}
+
+
+.box .time span{
+    position: absolute;
+    left: -100px;
+    color:#fff;
+    font-size:80%;
+    font-weight: bold;
+}
+.box .time span:first-child{top:-16px}
+.box .time span:last-child{top:94%}
+
+
+.arrow{
+    position: absolute;
+    top: 105%;
+    left: 22%;
+    cursor: pointer;
+  height:20px;
+  width:20px
+}
+
+.arrow:hover{
+    -webkit-animation: arrow 1s linear infinite;
+       -moz-animation: arrow 1s linear infinite;
+         -o-animation: arrow 1s linear infinite;
+            animation: arrow 1s linear infinite;
+}
+
+.box ul:last-of-type .arrow{
+    position: absolute;
+    top: 105%;
+    left: 22%;
+    transform: rotateX(180deg);
+    cursor: pointer;
+}
+
+#nav-home {
+    background-color: #111d72;
+}
+
+#nav-profile {
+    background-color: #c50031;
+}
+
+#nav-contact {
+    background-color: #0f97a9;
+}
+
+svg{
+    width: 20px;
+    height: 20px
+}
+
+@keyframes arrow{
+    0%,100%{
+        top:105%
+    }
+    50%{
+        top:106%
+    }
+}
+
+@-webkit-keyframes arrow{
+    0%,100%{
+        top:105%
+    }
+    50%{
+        top:106%
+    }
+}
+
+@-moz-keyframes arrow{
+    0%,100%{
+        top:105%
+    }
+    50%{
+        top:106%
+    }
+}
+
+@-o-keyframes arrow{
+    0%,100%{
+        top:105%
+    }
+    50%{
+        top:106%
+    }
+}
+  
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
